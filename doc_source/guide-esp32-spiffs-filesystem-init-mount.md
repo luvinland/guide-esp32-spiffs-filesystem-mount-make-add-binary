@@ -57,9 +57,9 @@ ESP32 SPIFFS init & mount 가이드.
 		size_t total = 0, used = 0;
 		ret = esp_spiffs_info(NULL, &total, &used);
 		if (ret != ESP_OK) {
-		ESP_LOGE(TAG, "Failed to get SPIFFS partition information (%s)", esp_err_to_name(ret));
+			ESP_LOGE(TAG, "Failed to get SPIFFS partition information (%s)", esp_err_to_name(ret));
 		} else {
-		ESP_LOGI(TAG, "Partition size: total: %d, used: %d", total, used);
+			ESP_LOGI(TAG, "Partition size: total: %d, used: %d", total, used);
 		}
 
 		return ret;
@@ -68,4 +68,3 @@ ESP32 SPIFFS init & mount 가이드.
 
 1. Success  
 	![image](https://user-images.githubusercontent.com/26864945/69845099-acc08c00-12b2-11ea-8f0f-9282fe64e78d.png)
-
