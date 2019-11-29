@@ -13,10 +13,10 @@ ESP32 SPIFFS init & mount 가이드.
 	```
 
 1. menuconfig 파티션 설정.
-	1. menuconfig → Partition Table → Partition Table → Custom partition table CSV 선택
+	1. menuconfig → Partition Table → Partition Table → `Custom partition table CSV` 선택
 		![image](https://user-images.githubusercontent.com/26864945/69838027-fd28f100-1294-11ea-9046-311f61a039ef.png)
 
-	1. Custom partition CSV file 지정
+	1. `Custom partition CSV file` 지정
 		![image](https://user-images.githubusercontent.com/26864945/69838192-d1f2d180-1295-11ea-8b89-c314919a4452.png)
 
 	1. Save → Exit
