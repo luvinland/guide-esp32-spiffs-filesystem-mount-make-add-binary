@@ -69,5 +69,5 @@ ESP32 SPIFFS init & mount 가이드.
 1. Success  
 ![image](https://user-images.githubusercontent.com/26864945/69845099-acc08c00-12b2-11ea-8f0f-9282fe64e78d.png)
 
-☞ 이어서 Binary file (image file) 생성 및 사용 가이드.  
-[guide-make-binary-file-for-spiffs-filesystem.md](https://github.com/luvinland/guide-esp32-spiffs-filesystem-mount-make-add-binary/blob/master/doc_source/guide-make-binary-file-for-spiffs-filesystem.md)
+<center>☞ 이어서 Binary file (image file) 생성 및 사용 가이드.  
+[guide-make-binary-file-for-spiffs-filesystem.md](https://github.com/luvinland/guide-esp32-spiffs-filesystem-mount-make-add-binary/blob/master/doc_source/guide-make-binary-file-for-spiffs-filesystem.md)</center>
