@@ -9,6 +9,8 @@ Binary file (image file) 생성 및 사용 가이드.
    ```c
    mkspiffs.exe -c .\wmfw -b 4096 -p 256 -s 0xf0000 .\wmfw\SCSH_COOKE_20190826.bin
    ```
+   > _.bin 파일명 길이 제한이 있음. (windows 버전이라서 문제가 되는지도 모르겠음.)_
+   
    ![image](https://user-images.githubusercontent.com/26864945/69849547-62dea280-12c0-11ea-9102-50635c85277f.png)
 
 ## Step 2. SPIFFS 파티션에 이미지 파일(*.bin) Writing.
